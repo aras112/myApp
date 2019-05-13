@@ -32,7 +32,7 @@ public class AuthenticationManagerProvider extends WebSecurityConfigurerAdapter
         return super.authenticationManagerBean();
         }
 
-    // TODO: 08.05.2019 must add new encoder before endpoint with reg.
+    // TODO: 08.05.2019 must add new encoder when endpoint with reg will be ready.
 
     @Bean
     public PasswordEncoder encoder()

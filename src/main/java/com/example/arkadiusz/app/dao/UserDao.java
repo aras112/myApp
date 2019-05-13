@@ -16,4 +16,6 @@ public interface UserDao extends JpaRepository<UserEntity, Long>
     Optional<UserEntity> findUserById(Long id);
 
     Optional<UserEntity> findByLoginIs(String login);
+
+    boolean existsUserEntitiesById(Long id);
     }
